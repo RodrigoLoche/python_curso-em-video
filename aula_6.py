@@ -48,3 +48,14 @@ print("\033[mTESTE\033[m") # Cor padrão.
 print("\033[7;40mTESTE\033[m") # Fundo Branco com letra preta
 
 
+nome = "Jubileu"
+
+cores = {"limpa":"\033[m", # Fazer uma lista com cores pode facilitar.
+         "azul": "\033[34m",
+         "amarelolimpa": "\033[33m",
+         "pretoebranco": "\033[0;30;40m"}
+
+print(f"prazer em te conhecer {cores['azul']}{nome}{cores['pretoebranco']}!!!\033[m")
+
+
+
