@@ -1,3 +1,61 @@
+# Condições # if, elif,  else,
+
+
+#----------------------------------------------#
+
+# tempo = int(input("Quantos anos tem seu carro? "))
+# if tempo <=3:
+#     print("Carro novo")
+# else:
+#     print("Carro velho")
+# print("FIM")
+
+# # Outra opção
+
+# tempo = int(input("Quantos anos tem seu carro? "))
+# print("Carro novo" if tempo <=3 else "Carro velho")
+# print("Fim!")
+
+
+#----------------------------------------------#
+
+
+# nome = input("Qual é o seu nome? ")
+# if nome == "Rodrigo":
+#     print("Que nome lindo você tem!")
+# print(f"Bom dia {nome}!") #Estrutura condicional simples.
+
+# nome = input("Qual é o seu nome? ")
+# if nome == "Rodrigo":
+#     print("Que nome lindo você tem!")
+# else: # Estrutura condicional composta.
+#     print("Que nome comum você tem!") 
+# print(f"Bom dia {nome}!")
+
+
+#----------------------------------------------#
+
+# n1 = float(input("Digite a primeira nota: "))
+# n2 = float(input("Digite a segunda nota: "))
+# m = (n1 + n2) / 2
+
+# print(f"A sua média foi {m:.2f}")
+
+# if m >= 6.0:
+#     print("Sua média foi boa! PARABÉNS")
+# else:
+#     print("Sua média foi ruim! ESTUDE MAIS!")
+
+#----------------------------------------------#
+
+n1 = float(input("Digite a primeira nota: "))
+n2 = float(input("Digite a segunda nota: "))
+m = (n1 + n2) / 2
+
+print(f"A sua média foi {m:.2f}")
+print("PARABÉNS" if m >=6 else "ESTUDE MAIS!")
+
+
 # Cores no terminal 
 #"ANSI Python"
 
@@ -56,6 +114,3 @@ cores = {"limpa":"\033[m", # Fazer uma lista com cores pode facilitar.
          "pretoebranco": "\033[0;30;40m"}
 
 print(f"prazer em te conhecer {cores['azul']}{nome}{cores['pretoebranco']}!!!\033[m")
-
-
-
